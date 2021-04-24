@@ -1,0 +1,92 @@
+.HeaderBottom {
+    .header-bottom__label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #FFFFFF;
+            border: 1px solid rgba(151, 151, 151, 0.496575);
+            box-sizing: border-box;
+            border-radius: 22.5px;
+            width: 80%;
+            padding: 0 0 0 20px;
+            margin-right: 30px;
+
+            select {
+                outline: none;
+                border: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                color: #000000;
+                width: 30%;
+            }
+
+            input {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                color: #000000;
+                padding: 5px 10px;
+                width: 40%;
+                outline: none;
+                border: none;
+                border-left: 1px solid black;
+                border-right: 1px solid black;
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+            button {
+                background: #19D476;
+                border-radius: 22px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+                padding: 15px 20px;
+                outline: none;
+                border: none;
+                margin-left: 20px;
+            }
+        }
+
+        .btn-plus {
+            width: 240px;
+            outline: none;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #19D476;
+            border-radius: 22px;
+            padding: 0 12px 0 0;
+            cursor: pointer;
+            
+            span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 19px;
+                color: #FFFFFF;
+            }
+
+            .plus-icon {
+                background: #11B463;
+                border-radius: 22px;
+                padding: 15px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+        }
+    }
+}

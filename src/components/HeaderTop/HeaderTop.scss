@@ -1,0 +1,34 @@
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+    &__right {
+        display: flex;
+        .language {
+            margin-right: 65px;
+        }
+        span {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 21px;
+            color: #4A4A4A;
+            cursor: pointer;
+            transition: all ease 0.5s;
+            &:hover {
+                color: #4E72CA;
+            }
+
+            &.chiziq {
+                margin-right: 10px;
+                margin-left: 10px;
+                cursor: default;
+                &:hover {
+                    color: #4A4A4A;
+                }
+            }
+        }
+    }
+}
