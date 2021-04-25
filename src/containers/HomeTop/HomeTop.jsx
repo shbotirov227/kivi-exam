@@ -1,4 +1,5 @@
 import {
+    ArrowIcon,
     HomeIcon1,
     HomeIcon2,
     HomeIcon3,
@@ -15,47 +16,114 @@ import './HomeTop.scss';
 const HomeTop = () => {
     return (
         <div className="HomeTop">
-            <h1>HomeTop</h1>
             <div className="home-top__icons">
-                <div className="home-icon purple">
-                    <img src={HomeIcon1} alt=""/>
-                </div>
+                
 
-                <div className="home-icon">
-                    <img src={HomeIcon2} alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn purple">
+                        <HomeIcon1/>
+                    </button>
+                    <span>Автомобили</span>
+                </button>
 
-                <div className="home-icon">
-                    <img src={HomeIcon3} alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn blue">
+                        <HomeIcon2/>
+                    </button>
+                    <span>Недвижимость</span>
+                </button>
 
-                <div className="home-icon">
-                    <img src={HomeIcon4} alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn orange">
+                        <HomeIcon3/>
+                    </button>
+                    <span>Электроника</span>
+                </button>
 
-                <div className="home-icon">
-                    <img src={HomeIcon5} alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn yellow">
+                        <HomeIcon4/>
+                    </button>
+                    <span>Работа</span>
+                </button>
 
-                <div className="home-icon">
-                    <img src={HomeIcon6} alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn oxra">
+                        <HomeIcon5/>
+                    </button>
+                    <span>Личные вещи</span>
+                </button>
 
-                <div className="home-icon">
-                    <img src={HomeIcon7} alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn blue">
+                        <HomeIcon6/>
+                    </button>
+                    <span>Дом и Сад</span>
+                </button>
 
-                <div className="home-icon">
-                    <img src={HomeIcon8} alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn purple">
+                        <HomeIcon7/>
+                    </button>
+                    <span>Стройка и ремонт</span>
+                </button>
 
-                <div className="home-icon">
-                    <img src={HomeIcon9} alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn oxra">
+                        <HomeIcon8/>
+                    </button>
+                    <span>Хобби и Спорт</span>
+                </button>
 
-                <div className="home-icon">
-                <img src="../../assets/images/icons/HomeIcon1.svg" alt=""/>
-                </div>
+                <button className="home-icon">
+                    <button className="btn orange">
+                        <HomeIcon9/>
+                    </button>
+                    <span>Бизнес и услуги</span>
+                </button>
+                
+                <button className="home-icon">
+                    <button className="btn purple">
+                        <HomeIcon7/>
+                    </button>
+                    <span>Стройка и ремонт</span>
+                </button>
+
+                <button className="home-icon">
+                    <button className="btn oxra">
+                        <HomeIcon8/>
+                    </button>
+                    <span>Хобби и Спорт</span>
+                </button>
+
+                <button className="home-icon">
+                    <button className="btn orange">
+                        <HomeIcon9/>
+                    </button>
+                    <span>Бизнес и услуги</span>
+                </button>
+
+                <button className="home-icon">
+                    <button className="btn purple">
+                        <HomeIcon7/>
+                    </button>
+                    <span>Стройка и ремонт</span>
+                </button>
+
+                <button className="home-icon">
+                    <button className="btn oxra">
+                        <HomeIcon8/>
+                    </button>
+                    <span>Хобби и Спорт</span>
+                </button>
+
+                <button className="home-icon">
+                    <button className="btn orange">
+                        <HomeIcon9/>
+                    </button>
+                    <span>Бизнес и услуги</span>
+                </button>
+                
             </div>
         </div>
     )

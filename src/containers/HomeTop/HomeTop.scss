@@ -1,10 +1,112 @@
 .HomeTop {
-    .home-icon {
-        img {
-            background: #B6CAFB;
-            border-radius: 20px;
-            width: 50px;
-            height: 50px;
+    margin-bottom: 30px;
+    position: relative;
+
+    &::before {
+        content: url(../../assets/images/icons/ArrowIcon.svg);
+        position: absolute;
+        width: 15px;
+        height: 25px;
+        background: #FFFFFF;
+        box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.129331);
+        padding: 10px 10px 0px 10px;
+        border-radius: 50%;
+        z-index: 1;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+
+        top: 0;
+        bottom: 50px;
+        margin: auto;
+        left: -60px;
+        cursor: pointer;
+}
+    &::after {
+        content: url(../../assets/images/icons/ArrowIcon.svg);
+        position: absolute;
+        width: 15px;
+        height: 25px;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+
+        background: #FFFFFF;
+        box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.129331);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        padding: 10px 10px 0px 10px;
+        border-radius: 50%;
+        z-index: 1;
+
+        top: 0;
+        bottom: 50px;
+        margin: auto;
+        right: -60px;
+        cursor: pointer;
+    }
+    
+    .home-top__icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+        position: relative;
+
+        .home-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            background-color: transparent;
+            margin: 0 30px;
+            &:first-child {
+                margin-left: 0;
+            }
+
+            .btn {
+                border: none;
+                outline: none;
+                cursor: pointer;
+                width: 75px;
+                height: 75px;
+                border-radius: 20px;
+                margin-bottom: 6px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+                
+                &.orange {
+                    background: #FF9E83;
+                }
+                &.oxra {
+                    background: #F6DAC2;
+                }
+                &.purple {
+                    background: #B6CAFB;
+                }
+                &.blue {
+                    background: #B4E2E1;
+                }
+                &.yellow {
+                    background: #F7E233;
+                }
+            }
+            span {
+                display: block;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                color: #4A4A4A;
+            }
+
         }
     }
 }

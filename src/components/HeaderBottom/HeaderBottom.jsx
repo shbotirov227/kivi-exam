@@ -1,5 +1,5 @@
 import { Plus } from '../../assets/icons/icons';
-import './HeaderBottom.scss';
+import classes from './HeaderBottom.scss';
 
 const HeaderBottom = () => {
     return (
