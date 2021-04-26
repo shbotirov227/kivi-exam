@@ -1,0 +1,40 @@
+.FooterTop {
+    background: #282B30;
+    padding: 25px 0;
+
+    .footertop-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left {
+        display: flex;
+        align-items: center;
+        span {
+            margin-left: 15px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+        }
+    }
+
+    .center-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #98A4B7;
+    }
+
+    .right {
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

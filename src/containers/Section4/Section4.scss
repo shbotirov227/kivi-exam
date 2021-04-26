@@ -1,0 +1,51 @@
+.Section4 {
+    margin-bottom: 25px;
+    .section4-top {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #D5D5D5;
+        button {
+            outline: none;
+            border: none;
+            border-bottom: 2px solid transparent;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            padding-bottom: 10px;
+            margin-right: 50px;
+            background-color: transparent;
+            cursor: pointer;
+            color: #9B9B9B;
+            transition: all ease 0.9s;
+            -webkit-transition: all ease 0.9s;
+            -moz-transition: all ease 0.9s;
+            -ms-transition: all ease 0.9s;
+            -o-transition: all ease 0.9s;
+            &:hover {
+                border-bottom: 2px solid #4E72CA;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 30px;
+                color: #4E72CA;
+            }
+        }
+    }
+
+    .arrow-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .down-span {
+            display: block;
+            text-align: center;
+            font-size: 15px;
+            line-height: 18px;
+            color: #4E72CA;
+            margin: 20px 0;
+            margin-right: 10px;
+        }
+    }
+}

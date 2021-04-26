@@ -1,0 +1,17 @@
+.Carusel {
+    background: rgba(182, 202, 251, 0.159986);
+    box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+    padding: 50px 0;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+
+    .carusel-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .carusel-item {
+            margin-right: 30px;
+        }
+    }
+}

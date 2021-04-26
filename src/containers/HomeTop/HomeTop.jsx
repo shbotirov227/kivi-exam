@@ -16,7 +16,7 @@ import './HomeTop.scss';
 const HomeTop = () => {
     return (
         <div className="HomeTop">
-            <div className="home-top__icons">
+            <div className="home-top__icons container">
                 
 
                 <button className="home-icon">
