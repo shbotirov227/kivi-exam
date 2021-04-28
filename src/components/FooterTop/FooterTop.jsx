@@ -6,11 +6,11 @@ const FooterTop = () => {
     return (
         <div className="FooterTop">
             <div className="footertop-inner container">
-                <div className="left">
+                <Link to="/" className="left">
                     <FooterLogo/>
                     <span>Продай, найди, купи<br></br>
                         все что ты пожелаешь</span>
-                </div>
+                </Link>
 
                 <span className="center-text">
                     Веб сайт бесплатных обьявлений | на базе<br></br>
@@ -18,11 +18,11 @@ const FooterTop = () => {
                 </span>
 
                 <div className="right">
-                    <Link to="https://www.apple.com/">
+                    <Link to="/">
                         <AppStore/>
                     </Link>
 
-                    <Link to="https://play.google.com/">
+                    <Link to="/">
                         <GooglePlay/>
                     </Link>
                 </div>

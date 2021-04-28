@@ -1,0 +1,83 @@
+.RegistrLeft {
+    width: 40%;
+    .register-left-inner {
+        text-align: center;
+        h4 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 75px;
+        }
+        form {
+            width: 100%;
+            input {
+                background: #FFFFFF;
+                border: 1px solid rgba(151, 151, 151, 0.482592);
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 20px 27px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 19px;
+                line-height: 23px;
+                text-align: center;
+                color: #C7C7C7;
+                margin-bottom: 26px;
+                width: 100%;
+                text-align: left;
+                outline: none;
+            }
+            button {
+                background: #41D481;
+                border-radius: 5px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-bottom: 55px;
+                padding: 20px;
+                display: block;
+                width: 100%;
+                outline: none;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        .ili {
+            margin-bottom: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+                border: 1px solid #979797;
+                background-color: #979797;
+                height: 1px;
+                width: 40%;
+            }
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #787993;
+            }
+        }
+
+        a {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #4E72CA;
+        }
+    }
+}

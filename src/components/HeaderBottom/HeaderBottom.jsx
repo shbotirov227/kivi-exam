@@ -1,5 +1,5 @@
-import { Plus } from '../../assets/icons/icons';
-import classes from './HeaderBottom.scss';
+import {Plus} from '../../assets/icons/icons';
+import './HeaderBottom.scss';
 
 const HeaderBottom = () => {
     return (
@@ -21,10 +21,9 @@ const HeaderBottom = () => {
                         <option value="По всей Узбекистану">По всей Узбекистану</option>
                         <option value="По всей Узбекистану">По всей Узбекистану</option>
                     </select>
-                    
-                    <button type="submit">Найти</button>
-                </form>
 
+                    <button>Найти</button>
+                </form>
 
                 <button className="btn-plus">
                     <div className="plus-icon">

@@ -1,0 +1,50 @@
+.RegistrRight {
+    width: 50%;
+    height: 800px;
+    background-image: url("../../assets/images/registrbgimg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+    .registr-right-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        margin-top: 400px;
+        margin-left: 60px;
+        width: 40%;
+        bottom: 200px;
+        left: 100px;
+        background-image: url(../../assets/images/registrbgimg.png);
+        background: #FFFFFF;
+        border-radius: 220px 220px 220px 25px;
+        padding: 80px 40px 40px 30px;
+
+        
+        .item-text {
+            margin: 10px 0 20px 0;
+            span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 19px;
+                line-height: 21px;
+                color: #787993;
+            }
+        }
+        .item-link {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            padding: 10px 20px;
+            color: #41D481;
+            border: 2px solid #41D481;
+            box-sizing: border-box;
+            border-radius: 5px;
+            width: 80%;
+        }
+    }
+}

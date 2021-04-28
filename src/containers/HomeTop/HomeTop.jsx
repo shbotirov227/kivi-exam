@@ -1,5 +1,4 @@
 import {
-    ArrowIcon,
     HomeIcon1,
     HomeIcon2,
     HomeIcon3,
@@ -17,7 +16,6 @@ const HomeTop = () => {
     return (
         <div className="HomeTop">
             <div className="home-top__icons container">
-                
 
                 <button className="home-icon">
                     <button className="btn purple">
@@ -81,27 +79,6 @@ const HomeTop = () => {
                     </button>
                     <span>Бизнес и услуги</span>
                 </button>
-                
-                <button className="home-icon">
-                    <button className="btn purple">
-                        <HomeIcon7/>
-                    </button>
-                    <span>Стройка и ремонт</span>
-                </button>
-
-                <button className="home-icon">
-                    <button className="btn oxra">
-                        <HomeIcon8/>
-                    </button>
-                    <span>Хобби и Спорт</span>
-                </button>
-
-                <button className="home-icon">
-                    <button className="btn orange">
-                        <HomeIcon9/>
-                    </button>
-                    <span>Бизнес и услуги</span>
-                </button>
 
                 <button className="home-icon">
                     <button className="btn purple">
@@ -123,6 +100,31 @@ const HomeTop = () => {
                     </button>
                     <span>Бизнес и услуги</span>
                 </button>
+
+                <button className="home-icon">
+                    <button className="btn purple">
+                        <HomeIcon7/>
+                    </button>
+                    <span>Стройка и ремонт</span>
+                </button>
+
+                <button className="home-icon">
+                    <button className="btn oxra">
+                        <HomeIcon8/>
+                    </button>
+                    <span>Хобби и Спорт</span>
+                </button>
+
+                <button className="home-icon">
+                    <button className="btn orange">
+                        <HomeIcon9/>
+                    </button>
+                    <span>Бизнес и услуги</span>
+                </button>
+
+            </div>
+
+            <div className="overlay">
                 
             </div>
         </div>

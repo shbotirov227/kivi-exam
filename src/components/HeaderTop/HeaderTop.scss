@@ -3,12 +3,57 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
-    
+
+    .header-top-logo {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            margin-left: 15px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 17px;
+            color: #000000;
+        }
+    }
+
+    .header-top-center {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header-top--link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            color: #000000;
+            margin-left: 30px;
+        }
+    }
+
     &__right {
         display: flex;
+        align-items: center;
+
         .language {
             margin-right: 65px;
         }
+
+        a {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 21px;
+            color: #4A4A4A;
+            cursor: pointer;
+            transition: all ease 0.5s;
+            &:hover {
+                color: #4E72CA;
+            }
+        }
+
         span {
             font-style: normal;
             font-weight: bold;

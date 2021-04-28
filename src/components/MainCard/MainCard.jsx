@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Breadcrumbs } from '@material-ui/core';
+
 
 import './MainCard.scss';
 
@@ -21,115 +24,119 @@ import Img16 from '../../assets/images/img16.png';
 
 
 const MainCard = () => {
+
+    const [ page, setPage ] = useState('singlepage');
+    console.log(page);
+
     return (
         <div className="MainCard">
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card" onClick={() => setPage(page)}>
                 <img src={Img16} alt=""/>
                 <h5>iPhone 6/6+ 16/64/128 Гб (Магазин 1 год гарантии)</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img1} alt=""/>
                 <h5>Маркетолог. Консультирование. Настройка рекламы</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img2} alt=""/>
                 <h5>Требуется администратор в Отел</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img3} alt=""/>
                 <h5>Велосипед Merida Big Seven 70 D</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img4} alt=""/>
                 <h5>Женский, комфортный велосипед из Германии</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img5} alt=""/>
                 <h5>Коньки раздвижные Galaxy р-р 36-39</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img6} alt=""/>
                 <h5>Продам свою гоночный байк Mongoose</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img7} alt=""/>
                 <h5>1-к квартира, 47 м², 7/18 эт.</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img8} alt=""/>
                 <h5>Торговое помещение, 10 м²</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img9} alt=""/>
                 <h5>Двигатели моторы головки кпп турбины тнвд гарантия</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img10} alt=""/>
                 <h5>Toyota Camry, 2002</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img11} alt=""/>
                 <h5>Сборочный комплект камаз 43118</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img12} alt=""/>
                 <h5>Продам легендарный BMW K1200S</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img13} alt=""/>
                 <h5>Плиточник</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img14} alt=""/>
                 <h5>Мастер регулировка дверей замена замков</h5>
                 <span className="card-date">Вчера 22:55</span>
                 <span className="card-price">39 000 000 сум</span>
             </Link>
 
-            <Link to="/" className="card">
+            <Link to="/singlepage" className="card">
                 <img src={Img15} alt=""/>
                 <h5>Овощная компания. Доставка свежих овощей и фруктов</h5>
                 <span className="card-date">Вчера 22:55</span>
