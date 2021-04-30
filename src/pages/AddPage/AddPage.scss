@@ -222,6 +222,8 @@
                 border-left: 1px solid rgba(151, 151, 151, 0.356686);
                 border-right: 1px solid rgba(151, 151, 151, 0.356686);
                 margin-bottom: 40px;
+                overflow-x: scroll;
+                padding-bottom: 20px;
 
                 a {
                     min-width: 250px;

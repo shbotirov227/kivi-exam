@@ -137,11 +137,13 @@
 
             }
         }
-        &.show {
-            display: flex;
-        }
+        
         &.hidden {
             display: none;
         }
+    }
+
+    .show {
+        display: flex;
     }
 }

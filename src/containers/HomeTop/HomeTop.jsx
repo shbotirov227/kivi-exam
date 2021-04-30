@@ -23,7 +23,7 @@ const HomeTop = () => {
         <div className="HomeTop">
             <div className="home-top__icons container">
 
-                <button className="home-icon" onClick={() => setAddClass(addClass)}>
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn purple">
                         <HomeIcon1/>
                     </button>
@@ -130,7 +130,7 @@ const HomeTop = () => {
 
             </div>
 
-            <div className={`overlay container ${false ? 'show' : ''}`} addClass={addClass} setAddClass={setAddClass}>
+            <div className={`overlay container ${addClass == false ? '' : 'show'}`} addClass={addClass} setAddClass={setAddClass}>
 
                 <div className="overlay-links">
                     <Link>Телефоны</Link>
