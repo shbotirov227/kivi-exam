@@ -30,98 +30,98 @@ const HomeTop = () => {
                     <span>Автомобили</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn blue">
                         <HomeIcon2/>
                     </button>
                     <span>Недвижимость</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn orange">
                         <HomeIcon3/>
                     </button>
                     <span>Электроника</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn yellow">
                         <HomeIcon4/>
                     </button>
                     <span>Работа</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn oxra">
                         <HomeIcon5/>
                     </button>
                     <span>Личные вещи</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn blue">
                         <HomeIcon6/>
                     </button>
                     <span>Дом и Сад</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn purple">
                         <HomeIcon7/>
                     </button>
                     <span>Стройка и ремонт</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn oxra">
                         <HomeIcon8/>
                     </button>
                     <span>Хобби и Спорт</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn orange">
                         <HomeIcon9/>
                     </button>
                     <span>Бизнес и услуги</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn purple">
                         <HomeIcon7/>
                     </button>
                     <span>Стройка и ремонт</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn oxra">
                         <HomeIcon8/>
                     </button>
                     <span>Хобби и Спорт</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn orange">
                         <HomeIcon9/>
                     </button>
                     <span>Бизнес и услуги</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn purple">
                         <HomeIcon7/>
                     </button>
                     <span>Стройка и ремонт</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn oxra">
                         <HomeIcon8/>
                     </button>
                     <span>Хобби и Спорт</span>
                 </button>
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(!addClass)}>
                     <button className="btn orange">
                         <HomeIcon9/>
                     </button>
@@ -133,35 +133,35 @@ const HomeTop = () => {
             <div className={`overlay container ${addClass == false ? '' : 'show'}`} addClass={addClass} setAddClass={setAddClass}>
 
                 <div className="overlay-links">
-                    <Link>Телефоны</Link>
-                    <Link>Компьютеры</Link>
-                    <Link>Фото / видео</Link>
-                    <Link>Тв / видеотехника</Link>
-                    <Link>Аудиотехника</Link>
+                    <Link to="/addpage">Телефоны</Link>
+                    <Link to="/addpage">Компьютеры</Link>
+                    <Link to="/addpage">Фото / видео</Link>
+                    <Link to="/addpage">Тв / видеотехника</Link>
+                    <Link to="/addpage">Аудиотехника</Link>
                 </div>
 
                 <div className="overlay-links">
-                    <Link>Телефоны</Link>
-                    <Link>Компьютеры</Link>
-                    <Link>Фото / видео</Link>
-                    <Link>Тв / видеотехника</Link>
-                    <Link>Аудиотехника</Link>
+                    <Link to="/addpage">Телефоны</Link>
+                    <Link to="/addpage">Компьютеры</Link>
+                    <Link to="/addpage">Фото / видео</Link>
+                    <Link to="/addpage">Тв / видеотехника</Link>
+                    <Link to="/addpage">Аудиотехника</Link>
                 </div>
 
                 <div className="overlay-links">
-                    <Link>Телефоны</Link>
-                    <Link>Компьютеры</Link>
-                    <Link>Фото / видео</Link>
-                    <Link>Тв / видеотехника</Link>
-                    <Link>Аудиотехника</Link>
+                    <Link to="/addpage">Телефоны</Link>
+                    <Link to="/addpage">Компьютеры</Link>
+                    <Link to="/addpage">Фото / видео</Link>
+                    <Link to="/addpage">Тв / видеотехника</Link>
+                    <Link to="/addpage">Аудиотехника</Link>
                 </div>
 
                 <div className="overlay-links">
-                    <Link>Телефоны</Link>
-                    <Link>Компьютеры</Link>
-                    <Link>Фото / видео</Link>
-                    <Link>Тв / видеотехника</Link>
-                    <Link>Аудиотехника</Link>
+                    <Link to="/addpage">Телефоны</Link>
+                    <Link to="/addpage">Компьютеры</Link>
+                    <Link to="/addpage">Фото / видео</Link>
+                    <Link to="/addpage">Тв / видеотехника</Link>
+                    <Link to="/addpage">Аудиотехника</Link>
                 </div>
             </div>
         </div>

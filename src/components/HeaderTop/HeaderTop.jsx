@@ -18,7 +18,7 @@ const HeaderTop = () => {
                 </div>
 
                 <div className="header-top-center">
-                    <Link to="/radiopage" className="header-top--link">Объявления</Link>
+                    <Link to="#" className="header-top--link">Объявления</Link>
                     <Link to="#" className="header-top--link">Магазины</Link>
                     <Link to="#" className="header-top--link">Для бизнеса</Link>
                     <Link to="#" className="header-top--link">Помощь</Link>

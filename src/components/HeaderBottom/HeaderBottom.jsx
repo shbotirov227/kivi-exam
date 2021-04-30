@@ -29,7 +29,7 @@ const HeaderBottom = () => {
                     <button>Найти</button>
                 </form>
 
-                <Link to="/addpage" className="btn-plus">
+                <Link to="/radiopage" className="btn-plus">
                     <div className="plus-icon">
                         <Plus/>
                     </div>
