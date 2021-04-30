@@ -3,13 +3,13 @@
     position: relative;
 
     &::before {
-        content: url(../../assets/images/icons/ArrowIcon.svg);
+        content: url("../../assets/images/icons/ArrowIcon.svg");
         position: absolute;
         width: 15px;
         height: 25px;
         background: #FFFFFF;
         box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.129331);
-        padding: 10px 10px 0px 10px;
+        padding: 10px 10px 0;
         border-radius: 50%;
         z-index: 1;
         -webkit-border-radius: 50%;
@@ -22,9 +22,9 @@
         margin: auto;
         left: -60px;
         cursor: pointer;
-}
+    }
     &::after {
-        content: url(../../assets/images/icons/ArrowIcon.svg);
+        content: url("../../assets/images/icons/ArrowIcon.svg");
         position: absolute;
         width: 15px;
         height: 25px;
@@ -36,7 +36,7 @@
         background: #FFFFFF;
         box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.129331);
         transform: matrix(-1, 0, 0, 1, 0, 0);
-        padding: 10px 10px 0px 10px;
+        padding: 10px 10px 0;
         border-radius: 50%;
         z-index: 1;
 
@@ -46,7 +46,7 @@
         right: -60px;
         cursor: pointer;
     }
-    
+
     .home-top__icons {
         display: flex;
         align-items: center;
@@ -81,7 +81,7 @@
                 -moz-border-radius: 20px;
                 -ms-border-radius: 20px;
                 -o-border-radius: 20px;
-                
+
                 &.orange {
                     background: #FF9E83;
                 }
@@ -107,6 +107,41 @@
                 color: #4A4A4A;
             }
 
+        }
+    }
+
+    .overlay {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 55px;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.209296);
+        margin-top: 30px;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        .overlay-links {
+            margin-right: 60px;
+            a {
+                display: block;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 39px;
+                letter-spacing: -6.7332e-05px;
+                color: #000000;
+
+            }
+        }
+        &.show {
+            display: flex;
+        }
+        &.hidden {
+            display: none;
         }
     }
 }

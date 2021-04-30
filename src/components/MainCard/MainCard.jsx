@@ -25,8 +25,7 @@ import Img16 from '../../assets/images/img16.png';
 
 const MainCard = () => {
 
-    const [ page, setPage ] = useState('singlepage');
-    console.log(page);
+    const [ page, setPage ] = useState('');
 
     return (
         <div className="MainCard">

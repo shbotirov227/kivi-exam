@@ -1,3 +1,6 @@
+import {useState, useEffect} from 'react'
+
+import {Link} from 'react-router-dom';
 import {
     HomeIcon1,
     HomeIcon2,
@@ -13,11 +16,14 @@ import {
 import './HomeTop.scss';
 
 const HomeTop = () => {
+
+    const [addClass, setAddClass] = useState(false);
+
     return (
         <div className="HomeTop">
             <div className="home-top__icons container">
 
-                <button className="home-icon">
+                <button className="home-icon" onClick={() => setAddClass(addClass)}>
                     <button className="btn purple">
                         <HomeIcon1/>
                     </button>
@@ -124,8 +130,39 @@ const HomeTop = () => {
 
             </div>
 
-            <div className="overlay">
-                
+            <div className={`overlay container ${false ? 'show' : ''}`} addClass={addClass} setAddClass={setAddClass}>
+
+                <div className="overlay-links">
+                    <Link>Телефоны</Link>
+                    <Link>Компьютеры</Link>
+                    <Link>Фото / видео</Link>
+                    <Link>Тв / видеотехника</Link>
+                    <Link>Аудиотехника</Link>
+                </div>
+
+                <div className="overlay-links">
+                    <Link>Телефоны</Link>
+                    <Link>Компьютеры</Link>
+                    <Link>Фото / видео</Link>
+                    <Link>Тв / видеотехника</Link>
+                    <Link>Аудиотехника</Link>
+                </div>
+
+                <div className="overlay-links">
+                    <Link>Телефоны</Link>
+                    <Link>Компьютеры</Link>
+                    <Link>Фото / видео</Link>
+                    <Link>Тв / видеотехника</Link>
+                    <Link>Аудиотехника</Link>
+                </div>
+
+                <div className="overlay-links">
+                    <Link>Телефоны</Link>
+                    <Link>Компьютеры</Link>
+                    <Link>Фото / видео</Link>
+                    <Link>Тв / видеотехника</Link>
+                    <Link>Аудиотехника</Link>
+                </div>
             </div>
         </div>
     )

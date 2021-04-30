@@ -1,6 +1,6 @@
-import {Link} from 'react-router-dom';
-import {Breadcrumbs} from '@material-ui/core';
-import {useState} from 'react';
+import { Link } from 'react-router-dom';
+import { Breadcrumbs } from '@material-ui/core';
+import { useState } from 'react';
 
 import Footer from '../../containers/Footer';
 
@@ -23,21 +23,23 @@ import Header from '../../containers/Header';
 
 const SinglePage = () => {
 
-    let clickToTextBtn = document.getElementById('#click-to-text-btn');
-    let clickToText = document.getElementById('#click-to-text');
 
-    function str() {
-        clickToTextBtn.addEventListener('click', function () {
-                if (clickToText.textContent = '****') {
-                    clickToText.replace('****', '9024');
-                } else {
-                    
-                }
-            })
-    }
+    // let clickToTextBtn = document.getElementById('#click-to-text-btn');
+    // let clickToText = document.getElementById('#click-to-text');
 
-    const [focusImg,
-        setFocusImg] = useState(SinglePageImg6);
+    // function str() {
+    //     clickToTextBtn
+    //         .addEventListener('click', function () {
+    //             if (clickToText.textContent == '****') {
+    //                 clickToText.replace('****', '9024');
+    //             } else {}
+    //         })
+    // }
+
+    const [ focusImg, setFocusImg ] = useState('');
+   
+    console.log(focusImg);
+
 
     return (
         <div className="SinglePage">
@@ -82,14 +84,7 @@ const SinglePage = () => {
                         <div className="main-bottom-left">
                             <div className="small-img">
 
-                                <button>
-                                    <img
-                                        src={SinglePageImg1}
-                                        alt=""
-                                        className="singlepage-img"
-                                        onClick={() => setFocusImg(focusImg)}/>
-                                </button>
-
+                                <img src={SinglePageImg1} alt="" className="singlepage-img" onClick={() => setFocusImg(focusImg)}/>
                                 <img src={SinglePageImg2} alt="" className="singlepage-img"/>
                                 <img src={SinglePageImg3} alt="" className="singlepage-img"/>
                                 <img src={SinglePageImg4} alt="" className="singlepage-img"/>
@@ -112,12 +107,12 @@ const SinglePage = () => {
                                     <div className="click-btn">
                                         <span>99891 166</span>
                                         <span id="click-to-text">****</span>
-                                        <button id="click-to-text-btn" onClick={str}>Покозать польностю</button>
+                                        <button id="click-to-text-btn">Покозать польностю</button>
                                     </div>
                                     <div className="click-btn">
                                         <span>99891 166</span>
                                         <span id="click-to-text hidden">****</span>
-                                        <button id="click-to-text-btn" onClick={str}>Покозать польностю</button>
+                                        <button id="click-to-text-btn">Покозать польностю</button>
                                     </div>
                                 </div>
 

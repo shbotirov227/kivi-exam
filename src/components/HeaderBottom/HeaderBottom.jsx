@@ -1,7 +1,11 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {Plus} from '../../assets/icons/icons';
+import AddPage from '../../pages/AddPage/AddPage';
 import './HeaderBottom.scss';
 
 const HeaderBottom = () => {
+
     return (
         <div className="HeaderBottom">
             <div className="header-bottom__label">
@@ -25,13 +29,13 @@ const HeaderBottom = () => {
                     <button>Найти</button>
                 </form>
 
-                <button className="btn-plus">
+                <Link to="/addpage" className="btn-plus">
                     <div className="plus-icon">
                         <Plus/>
                     </div>
 
                     <span>Добавить обьявления</span>
-                </button>
+                </Link>
             </div>
         </div>
     )

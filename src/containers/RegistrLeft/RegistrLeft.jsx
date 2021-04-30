@@ -1,38 +1,45 @@
-import { render } from '@testing-library/react';
-import { useState } from 'react';
-import {Link} from 'react-router-dom';
+import {useState, useRef, useEffect} from 'react';
+import { Link, useHistory} from 'react-router-dom';
+import request from '../../assets/http';
+
 import './RegistrLeft.scss';
 
 const RegistrLeft = () => {
 
-    const [ inputName, setInputName ] = useState('');
+    // const [ hasError, setHasError ] = useState(false);
+    // const emailInputRef = useRef(null);
+    // const passInputRef = useRef(null);
 
-    const handleSubmit = (e) => {
-            e.preventDefault();
-        }
+    // const history = useHistory();
+
+    // const [ gmail, setGmail ] = useState('');
+    // const [ password, setPassword ] = useState('');
+
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     request.post('/registr', {
+    //         email: emailInputRef.current.value,
+    //         password: passInputRef.current.value,
+    //     })
+    //         .then(() => {
+    //             window.localStorage.setItem('sessionToken', 'salom');
+    //             history.push('/home');
+    //             setHasError(true);
+    //         })
+    //         .catch((err) => {
+                
+    //         })
+    // }
 
     return (
         <div className="RegistrLeft">
             <div className="register-left-inner">
                 <h4>Бесплатная регистрация</h4>
 
-                <form action="" id="form" onSubmit={handleSubmit}>
-                    <input
-                    type="email"
-                    name="email"
-                    id=""
-                    placeholder="Темиров Зухриддин"
-                    value={inputName}
-                    onChange={(e) => setInputName(e.target.value)}
-                    />
+                <form action="" id="form">
+                    <input type="email" name="email" placeholder="Темиров Зухриддин"/>
+                    <input type="password" name="password" placeholder="Password"/>
 
-                    <input
-                    type="password"
-                    name="password"
-                    id=""
-                    placeholder="Password"
-                    
-                    />
                     <button type="submit">Далее</button>
                 </form>
 
