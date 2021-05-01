@@ -40,7 +40,7 @@ const RegistrLeft = () => {
                     <input type="email" name="email" placeholder="Темиров Зухриддин"/>
                     <input type="password" name="password" placeholder="Password"/>
 
-                    <button type="submit">Далее</button>
+                    <Link to="/registr2">Далее</Link>
                 </form>
 
                 <div className="ili">
@@ -50,7 +50,8 @@ const RegistrLeft = () => {
                 </div>
 
                 <Link to="#">Войдите в систему, если у вас уже есть<br/>
-                    аккаунт kivi.uz</Link>
+                    аккаунт kivi.uz
+                </Link>
             </div>
         </div>
     )

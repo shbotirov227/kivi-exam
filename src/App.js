@@ -9,6 +9,9 @@ import SinglePage from "./pages/SinglePage/SinglePage";
 import Registr from './pages/Regist';
 import AddPage from './pages/AddPage/AddPage';
 import RadioPage from './pages/RadioPage/RadioPage';
+import RegistrForm2 from './components/RegistrForm2';
+import RegistrForm3 from './components/RegistrForm3';
+import RegistrForm4 from './components/RegistrForm4';
 
 const accessToken = window.localStorage.getItem('sessionToken');
 
@@ -25,6 +28,9 @@ function App() {
                     <Route path="/registr" component={Registr}/>
                     <Route path="/addpage" component={AddPage}/>
                     <Route path="/radiopage" component={RadioPage}/>
+                    <Route path="/registr2" component={RegistrForm2}/>
+                    <Route path="/registr3" component={RegistrForm3}/>
+                    <Route path="/registr4" component={RegistrForm4}/>
                 </Switch>
 
             </Router>

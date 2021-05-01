@@ -1,7 +1,13 @@
-.RegistrLeft {
-    width: 40%;
-    .register-left-inner {
-        text-align: center;
+.RegistrForm3 {
+    .registr3-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            width: 40%;
+        }
+
         h4 {
             font-style: normal;
             font-weight: bold;
@@ -10,10 +16,52 @@
             text-align: center;
             text-transform: uppercase;
             color: #000000;
-            margin-bottom: 75px;
+            margin-bottom: 25px;
+        }
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            margin-bottom: 25px;
+            color: #787993;
         }
         form {
             width: 100%;
+
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                color: #787993;
+                margin-bottom: 10px;
+            }
+
+            .flexitem {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 26px;
+                button {
+                    background: rgba(216, 216, 216, 0.46841);
+                    border-radius: 5px;
+                    padding: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 19px;
+                    line-height: 23px;
+                    color: #414D6A;
+                    border: none;
+                    outline: none;
+                }
+
+                input {
+                    width: 80%;
+                }
+            }
+
             input {
                 background: #FFFFFF;
                 border: 1px solid rgba(151, 151, 151, 0.482592);
@@ -26,7 +74,7 @@
                 line-height: 23px;
                 text-align: center;
                 color: #C7C7C7;
-                margin-bottom: 26px;
+
                 width: 100%;
                 text-align: left;
                 outline: none;
@@ -46,6 +94,7 @@
                 outline: none;
                 border: none;
                 cursor: pointer;
+                margin-top: 35px;
             }
         }
 
@@ -77,6 +126,9 @@
             line-height: 20px;
             text-align: center;
             color: #4E72CA;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
